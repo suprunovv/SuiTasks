@@ -1,14 +1,14 @@
 //
-//  SuiTasksApp.swift
-//  SuiTasks
+//  AlertTaskApp.swift
+//  AlertTask
 //
-//  Created by MacBookPro on 01.05.2024.
+//  Created by MacBookPro on 29.04.2024.
 //
 
 import SwiftUI
 
 @main
-struct SuiTasksApp: App {
+struct AlertTaskApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
