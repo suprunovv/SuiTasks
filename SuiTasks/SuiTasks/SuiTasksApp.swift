@@ -11,7 +11,7 @@ import SwiftUI
 struct SuiTasksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayerView()
         }
     }
 }
