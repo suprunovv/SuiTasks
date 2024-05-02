@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		52F00B762BE2397800AD5F95 /* SuiTasksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B752BE2397800AD5F95 /* SuiTasksApp.swift */; };
-		52F00B782BE2397800AD5F95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B772BE2397800AD5F95 /* ContentView.swift */; };
+		52F00B782BE2397800AD5F95 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B772BE2397800AD5F95 /* PlayerView.swift */; };
 		52F00B7A2BE2397B00AD5F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F00B792BE2397B00AD5F95 /* Assets.xcassets */; };
 		52F00B7D2BE2397B00AD5F95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F00B7C2BE2397B00AD5F95 /* Preview Assets.xcassets */; };
+		52F00B842BE281C800AD5F95 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B832BE281C800AD5F95 /* PlayerViewModel.swift */; };
+		52F00B862BE2980300AD5F95 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B852BE2980300AD5F95 /* Song.swift */; };
+		52F00B882BE2AABA00AD5F95 /* toxi-besitsya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52F00B872BE2AABA00AD5F95 /* toxi-besitsya.mp3 */; };
+		52F00B8A2BE2B91500AD5F95 /* mikhail-krug-kupola.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52F00B892BE2B91500AD5F95 /* mikhail-krug-kupola.mp3 */; };
+		52F00B8C2BE2C07C00AD5F95 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B8B2BE2C07C00AD5F95 /* Color + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52F00B722BE2397800AD5F95 /* SuiTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuiTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F00B752BE2397800AD5F95 /* SuiTasksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuiTasksApp.swift; sourceTree = "<group>"; };
-		52F00B772BE2397800AD5F95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52F00B772BE2397800AD5F95 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		52F00B792BE2397B00AD5F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F00B7C2BE2397B00AD5F95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52F00B832BE281C800AD5F95 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		52F00B852BE2980300AD5F95 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		52F00B872BE2AABA00AD5F95 /* toxi-besitsya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "toxi-besitsya.mp3"; sourceTree = "<group>"; };
+		52F00B892BE2B91500AD5F95 /* mikhail-krug-kupola.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mikhail-krug-kupola.mp3"; sourceTree = "<group>"; };
+		52F00B8B2BE2C07C00AD5F95 /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				52F00B752BE2397800AD5F95 /* SuiTasksApp.swift */,
-				52F00B772BE2397800AD5F95 /* ContentView.swift */,
+				52F00B832BE281C800AD5F95 /* PlayerViewModel.swift */,
+				52F00B772BE2397800AD5F95 /* PlayerView.swift */,
+				52F00B852BE2980300AD5F95 /* Song.swift */,
+				52F00B8B2BE2C07C00AD5F95 /* Color + Extension.swift */,
+				52F00B872BE2AABA00AD5F95 /* toxi-besitsya.mp3 */,
+				52F00B892BE2B91500AD5F95 /* mikhail-krug-kupola.mp3 */,
 				52F00B792BE2397B00AD5F95 /* Assets.xcassets */,
 				52F00B7B2BE2397B00AD5F95 /* Preview Content */,
 			);
@@ -125,8 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F00B882BE2AABA00AD5F95 /* toxi-besitsya.mp3 in Resources */,
 				52F00B7D2BE2397B00AD5F95 /* Preview Assets.xcassets in Resources */,
 				52F00B7A2BE2397B00AD5F95 /* Assets.xcassets in Resources */,
+				52F00B8A2BE2B91500AD5F95 /* mikhail-krug-kupola.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52F00B782BE2397800AD5F95 /* ContentView.swift in Sources */,
+				52F00B862BE2980300AD5F95 /* Song.swift in Sources */,
+				52F00B842BE281C800AD5F95 /* PlayerViewModel.swift in Sources */,
+				52F00B782BE2397800AD5F95 /* PlayerView.swift in Sources */,
 				52F00B762BE2397800AD5F95 /* SuiTasksApp.swift in Sources */,
+				52F00B8C2BE2C07C00AD5F95 /* Color + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
