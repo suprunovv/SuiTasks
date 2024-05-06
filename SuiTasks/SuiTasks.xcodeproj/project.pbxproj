@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		52F00B762BE2397800AD5F95 /* SuiTasksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B752BE2397800AD5F95 /* SuiTasksApp.swift */; };
-		52F00B782BE2397800AD5F95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B772BE2397800AD5F95 /* ContentView.swift */; };
+		52F00B782BE2397800AD5F95 /* VpnTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B772BE2397800AD5F95 /* VpnTabBarView.swift */; };
 		52F00B7A2BE2397B00AD5F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F00B792BE2397B00AD5F95 /* Assets.xcassets */; };
 		52F00B7D2BE2397B00AD5F95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F00B7C2BE2397B00AD5F95 /* Preview Assets.xcassets */; };
+		52F00B9A2BE7EC7A00AD5F95 /* VpnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B992BE7EC7A00AD5F95 /* VpnView.swift */; };
+		52F00B9C2BE7F3B600AD5F95 /* TariffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B9B2BE7F3B600AD5F95 /* TariffView.swift */; };
+		52F00B9E2BE7F74700AD5F95 /* Tariff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B9D2BE7F74700AD5F95 /* Tariff.swift */; };
+		52F00BA02BE80FD000AD5F95 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00B9F2BE80FD000AD5F95 /* PurchaseView.swift */; };
+		52F00BA22BE8243600AD5F95 /* BasketTariffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00BA12BE8243600AD5F95 /* BasketTariffView.swift */; };
+		52F00BA42BE829A600AD5F95 /* TariffData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00BA32BE829A600AD5F95 /* TariffData.swift */; };
+		52F00BA62BE8305600AD5F95 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00BA52BE8305600AD5F95 /* Color + Extension.swift */; };
+		52F00BAB2BE8578E00AD5F95 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00BAA2BE8578E00AD5F95 /* UIColor+Extension.swift */; };
+		52F00BAE2BE8645F00AD5F95 /* BascketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F00BAD2BE8645F00AD5F95 /* BascketView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52F00B722BE2397800AD5F95 /* SuiTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuiTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F00B752BE2397800AD5F95 /* SuiTasksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuiTasksApp.swift; sourceTree = "<group>"; };
-		52F00B772BE2397800AD5F95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52F00B772BE2397800AD5F95 /* VpnTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnTabBarView.swift; sourceTree = "<group>"; };
 		52F00B792BE2397B00AD5F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F00B7C2BE2397B00AD5F95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52F00B992BE7EC7A00AD5F95 /* VpnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnView.swift; sourceTree = "<group>"; };
+		52F00B9B2BE7F3B600AD5F95 /* TariffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffView.swift; sourceTree = "<group>"; };
+		52F00B9D2BE7F74700AD5F95 /* Tariff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tariff.swift; sourceTree = "<group>"; };
+		52F00B9F2BE80FD000AD5F95 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		52F00BA12BE8243600AD5F95 /* BasketTariffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTariffView.swift; sourceTree = "<group>"; };
+		52F00BA32BE829A600AD5F95 /* TariffData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TariffData.swift; sourceTree = "<group>"; };
+		52F00BA52BE8305600AD5F95 /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
+		52F00BAA2BE8578E00AD5F95 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		52F00BAD2BE8645F00AD5F95 /* BascketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BascketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				52F00B752BE2397800AD5F95 /* SuiTasksApp.swift */,
-				52F00B772BE2397800AD5F95 /* ContentView.swift */,
+				52F00BA72BE8316900AD5F95 /* TabBar */,
+				52F00BA82BE8318C00AD5F95 /* Basket */,
+				52F00BAF2BE864A400AD5F95 /* Purchase */,
+				52F00BAC2BE857F000AD5F95 /* Extensions */,
+				52F00BA92BE831AB00AD5F95 /* Models */,
+				52F00BB02BE864C600AD5F95 /* Vpn */,
 				52F00B792BE2397B00AD5F95 /* Assets.xcassets */,
 				52F00B7B2BE2397B00AD5F95 /* Preview Content */,
 			);
@@ -65,6 +88,58 @@
 				52F00B7C2BE2397B00AD5F95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52F00BA72BE8316900AD5F95 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				52F00B772BE2397800AD5F95 /* VpnTabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		52F00BA82BE8318C00AD5F95 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				52F00BA12BE8243600AD5F95 /* BasketTariffView.swift */,
+				52F00BAD2BE8645F00AD5F95 /* BascketView.swift */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		52F00BA92BE831AB00AD5F95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52F00B9D2BE7F74700AD5F95 /* Tariff.swift */,
+				52F00BA32BE829A600AD5F95 /* TariffData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52F00BAC2BE857F000AD5F95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52F00BA52BE8305600AD5F95 /* Color + Extension.swift */,
+				52F00BAA2BE8578E00AD5F95 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52F00BAF2BE864A400AD5F95 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				52F00B9F2BE80FD000AD5F95 /* PurchaseView.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		52F00BB02BE864C600AD5F95 /* Vpn */ = {
+			isa = PBXGroup;
+			children = (
+				52F00B992BE7EC7A00AD5F95 /* VpnView.swift */,
+				52F00B9B2BE7F3B600AD5F95 /* TariffView.swift */,
+			);
+			path = Vpn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52F00B782BE2397800AD5F95 /* ContentView.swift in Sources */,
+				52F00BA02BE80FD000AD5F95 /* PurchaseView.swift in Sources */,
+				52F00B9C2BE7F3B600AD5F95 /* TariffView.swift in Sources */,
+				52F00BA22BE8243600AD5F95 /* BasketTariffView.swift in Sources */,
+				52F00B782BE2397800AD5F95 /* VpnTabBarView.swift in Sources */,
+				52F00B9E2BE7F74700AD5F95 /* Tariff.swift in Sources */,
+				52F00BA42BE829A600AD5F95 /* TariffData.swift in Sources */,
 				52F00B762BE2397800AD5F95 /* SuiTasksApp.swift in Sources */,
+				52F00B9A2BE7EC7A00AD5F95 /* VpnView.swift in Sources */,
+				52F00BAE2BE8645F00AD5F95 /* BascketView.swift in Sources */,
+				52F00BA62BE8305600AD5F95 /* Color + Extension.swift in Sources */,
+				52F00BAB2BE8578E00AD5F95 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
